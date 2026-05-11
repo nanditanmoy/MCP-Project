@@ -1,4 +1,4 @@
-from mcp.server.fastmcp import FastMCP
+from mcp.server.fastmcp import FastMCP # type: ignore
 
 mcp = FastMCP("BMI Server")
 print(f"Starting server: {mcp.name}")
